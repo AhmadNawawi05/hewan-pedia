@@ -6,7 +6,76 @@ import {Breadcrumb} from 'flowbite-vue'
 
 
 <template>
-    <div>
+
+
+<section class="bg-white dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
+       
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white-50 dark:bg-white-800 rounded-lg p-8 md:p-12">
+               
+                
+                <img class="h-auto max-w-lg rounded-lg" src="https://img.pikbest.com/origin/09/00/62/77ZpIkbEsTvDu.png!bw700" alt="image description">
+
+               
+            </div>
+            <div class="bg-white-50 white :bg-white-800 rounded-lg p-8 md:p-12">
+
+                <h1 class="mb-4 text-left text-4xl font-bold tracking-tight leading-none text-gray md:text-5xl lg:text-6xl">Rembo</h1>
+                
+                <p class="mb-3 text-left text-gray-1000 dark:text-gray-400 ">Rembo ialah ayam jantan peliharaan Tok Dalang. Walaupun muncul dalam seri Upin & Ipin sejak<br>  Musim  pertama, tetapi namanya diketahui dalam episode "Jejak Rembo",</p>
+                <br>
+                <p class="mb-3 text-left text-gray-1000 dark:text-gray-400 " >Cara merawat Rembo agak sedikit berbeda dengan ayam biasa, Rembo memiliki emosi tersendiri <br>Sehingga Rembo harus di mandikan minimal seminggu dua kali agar kesehatan tubuh nya terjaga, <br> jika tidak rambo marah dan kabur ke kampung sebelah.</p>
+                <br>
+                <p class="mb-3 text-left text-gray-1000 dark:text-gray-400 " >Cara menjinakan Rambo cukup mudah kasih saja ayam betina pak selamet dan simpan saja sendal <br> di dalam kandang rambo agar rambo senang.</p>
+                
+
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white-50 dark:bg-white-800 rounded-lg p-8 md:p-12">
+               
+        <h1 class="mb-4 text-left text-4xl font-bold tracking-tight leading-none text-gray md:text-5xl lg:text-6xl">Noo Noo</h1>
+        <p class="mb-3 text-left text-gray-1000 dark:text-gray-400 ">Noo Noo adalah sebuah vacoom cleaner yang menjelma sebagai seekor anjing yang selalu menemani <br> para tubbies, Noo Noo jarang berinterkasi, Noo Noo hanya senang mengelilingi gua dan menghisap lantai</p>
+        <br>
+        <p class="mb-3 text-left text-gray-1000 dark:text-gray-400 " >Cara merawat Noo Noo sama seperti merawat vacoom cleaner biasa </p>
+        <br>
+        <p class="mb-3 text-left text-gray-1000 dark:text-gray-400 " >Nyatanya Noo Noo hanyalah vacoom cleaner jadi kalian bisa mendapatkan nya di toko elektronik terdekat </p> 
+                
+            </div>
+            <div class="bg-white-50 white :bg-white-800 rounded-lg p-8 md:p-12">
+
+                <img class="h-auto max-w-lg rounded-lg" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ff846d4e-6828-4ef9-9b1f-7f01b3fcf7e6/dfe6foe-feaa6184-f740-4ee8-a508-85ab62ce9c51.png/v1/fill/w_553,h_451/teletubbies_noo_noo_png_clipart_2_by_purpletinkywinky_dfe6foe-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDUxIiwicGF0aCI6IlwvZlwvZmY4NDZkNGUtNjgyOC00ZWY5LTliMWYtN2YwMWIzZmNmN2U2XC9kZmU2Zm9lLWZlYWE2MTg0LWY3NDAtNGVlOC1hNTA4LTg1YWI2MmNlOWM1MS5wbmciLCJ3aWR0aCI6Ijw9NTUzIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.3mg_PSjdCLLBwF5ZDl5rLcI85G5qAy8QsqiwBAG1wZE" alt="image description">      
+
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white-50 dark:bg-white-800 rounded-lg p-8 md:p-12">
+               
+                
+                <img class="h-auto max-w-lg rounded-lg" src="https://www.seekpng.com/png/detail/8-80614_masha-and-the-bear-png.png" alt="image description">
+
+               
+            </div>
+            <div class="bg-white-50 white :bg-white-800 rounded-lg p-8 md:p-12">
+                
+                <h1 class="mb-4 text-left text-4xl font-bold tracking-tight leading-none text-gray md:text-5xl lg:text-6xl">Bear</h1>
+        <p class="mb-3 text-left text-gray-1000 dark:text-gray-400 ">Bear hewan yang selalu menemani masa kecil kita bersama masha, yakni seekor beruang coklat<br> yang mandiri dan bisa berbagai hal, terutama atraksi sirkus</p>
+        <br>
+        <p class="mb-3 text-left text-gray-1000 dark:text-gray-400 " >Cara merawat Bear sangat sangatlah mudah kalian tinggal kasih rumah beserta perabotan nya <br> dan bear akan bertahan hidup dengan sendirinya oh ya dan jangan lupa untuk me restock makanan bear <br>jika sudah habis, jika tidak sesuatu yang buruk akan terjadi.</p>
+        <br>
+        <p class="mb-3 text-left text-gray-1000 dark:text-gray-400 " >Cara menjinakan bear sangat mudah karna pada dasarnya bear sudah jinak kalian hanya perlu <br> mengajak nya berinteraksi agar dia senang dan tidak bosan.</p>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- <div>
         
 
         <section class="bg-right bg-no-repeat bg-[url('https://img.pikbest.com/origin/09/00/62/77ZpIkbEsTvDu.png!bw700')] bg-gray-200 bg-blend-multiply">
@@ -39,12 +108,7 @@ import {Breadcrumb} from 'flowbite-vue'
 
 <section class="bg-right bg-no-repeat bg-[url('https://www.seekpng.com/png/detail/8-80614_masha-and-the-bear-png.png')] bg-gray-1000 bg-blend-multiply">
     <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-        <h1 class="mb-4 text-left text-4xl font-bold tracking-tight leading-none text-gray md:text-5xl lg:text-6xl">Bear</h1>
-        <p class="mb-3 text-left text-gray-1000 dark:text-gray-400 ">Bear hewan yang selalu menemani masa kecil kita bersama masha, yakni seekor beruang coklat<br> yang mandiri dan bisa berbagai hal, terutama atraksi sirkus</p>
-        <br>
-        <p class="mb-3 text-left text-gray-1000 dark:text-gray-400 " >Cara merawat Bear sangat sangatlah mudah kalian tinggal kasih rumah beserta perabotan nya <br> dan bear akan bertahan hidup dengan sendirinya oh ya dan jangan lupa untuk me restock makanan bear <br>jika sudah habis, jika tidak sesuatu yang buruk akan terjadi.</p>
-        <br>
-        <p class="mb-3 text-left text-gray-1000 dark:text-gray-400 " >Cara menjinakan bear sangat mudah karna pada dasarnya bear sudah jinak kalian hanya perlu <br> mengajak nya berinteraksi agar dia senang dan tidak bosan.</p>
+        
         <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             
         </div>
@@ -52,14 +116,14 @@ import {Breadcrumb} from 'flowbite-vue'
 </section>
 
 
-    </div>
+    </div> -->
 
-    <br>
-
-
+    
 
 
-<!-- <section class="bg-white dark:bg-white-900">
+
+
+ <!-- <section class="bg-white dark:bg-white-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
         <div class="bg-white-50 dark:bg-white-800 dark:border-white-700 rounded-lg p-8 md:p-12 mb-8">
             
